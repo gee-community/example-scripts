@@ -17,7 +17,7 @@ newImage = ee.Image.constant(value)
 
 #### Javascript
 ```javascript
-var FirstIMAGE  = ee.Image(1);   
-var SecondIMAGE = ee.Image.constant(2);
-print(FirstIMAGE.getInfo(), SecondIMAGE.getInfo());
+var FirstIMAGE  = ee.Image( 1 );   
+var SecondIMAGE = ee.Image.constant( 2 );
+print( FirstIMAGE.getInfo( ), SecondIMAGE.getInfo( ) );
 ```
