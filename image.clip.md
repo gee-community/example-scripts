@@ -1,4 +1,4 @@
-# image.Clip
+# image.clip
 - Creates a new image by masking those portions of a specified image lie outside of a region.
 - Masked pixels will appear as transparent in subsequent displays and eliminated from subsequent processing.
 
