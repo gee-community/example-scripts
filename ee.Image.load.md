@@ -8,8 +8,8 @@
 newImage = ee.Image.load(assetID, version)
 ```
 
-*assetID* is the specified asset ID, given as a string.
-*version* is the version number. Default: -1 (calling fro the current version
+- *assetID* is the specified asset ID, given as a string.
+- *version* is the version number. Default: -1 (calling fro the current version
 
 
 ## Example
