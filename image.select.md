@@ -12,7 +12,7 @@ newImage = oldImage.select( bandSelectors, bandOrder )
 - *newImage* is the new image.
 - *oldImage* is the specified image.
 - *bandSelectors* are the specified names, indices, or regexes, given as an array of strings.
-- *bandOrder* is an array of new names to be ascribed to (all of) the bands of the new image, given as an array of strings.
+- Optional: *bandOrder* is an array of new names to be ascribed to (all of) the bands of the new image, given as an array of strings.
 
 
 ## Example
