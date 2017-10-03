@@ -1,6 +1,8 @@
 # ee.Image
 
 ## Syntax
+
+#### Javascript
 ```
 newImage = ee.Image('assetID')
 ```
@@ -8,6 +10,8 @@ newImage = ee.Image('assetID')
 assetID is the specified asset ID, given as a string.
 
 ## Example
+
+#### Javascript
 ```javascript
 var NewIMAGE = ee.Image( 'CGIAR/SRTM90_V4' );
 Map.setCenter( -98, 39, 4 );
