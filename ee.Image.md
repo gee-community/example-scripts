@@ -1,4 +1,5 @@
 # ee.Image
+- Creates a new image from an image asset identified by a specified asset ID.
 
 ## Syntax
 
