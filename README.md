@@ -5,6 +5,7 @@ Shared with his permission with the intention that the examples will be maintain
 - The layout of the pages will be as follows:  
 
 # Name of Method
+- Description of what it does. Possibly more detailed than what you find in the official documentation.
 
 ## Syntax
 
@@ -13,14 +14,14 @@ Shared with his permission with the intention that the examples will be maintain
 A = method(B)
 ```
 
-Description of syntax.
+Description of syntax and arguments.
 
 #### Python
 ```
 A = method(B)
 ```
 
-Description of syntax.
+Description of syntax and arguments.
 
 ## Examples
 
