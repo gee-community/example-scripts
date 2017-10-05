@@ -8,7 +8,7 @@
 newImage = ee.Image('assetID')
 ```
 
-assetID is the specified asset ID, given as a string.
+- *assetID* is the specified asset ID, given as a string.
 
 ## Example
 
