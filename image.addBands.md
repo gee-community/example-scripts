@@ -1,4 +1,4 @@
-# image.addBands.md
+# image.addBands
 - Creates a new image by replicating the first of two specified images and adding to it whatever bands of a second specified image have any of a specified set of names.
 
 ## Syntax
