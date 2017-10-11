@@ -11,6 +11,11 @@ newImage = ee.Image.load(assetID, version)
 - *assetID* is the specified asset ID, given as a string.
 - Optional: *version* is the version number. Default: -1 (calling from the current version)
 
+Argument names used in Docs:
+```
+newImage = ee.Image.load(id, version)
+```
+
 
 ## Example
 
