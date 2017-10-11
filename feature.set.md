@@ -10,7 +10,7 @@ newFeature = oldFeature.set ( pairsOfPropertiesAndValues )
 
 - *newFeature* is the new feature.
 - *oldGeometry* is the specified geometry, given as an EE geometry object or as a GeoJSON object representing either a geometry or a feature.
-- *pairsOfPropertiesAndValues* is the specified properties and new values, given as a comma-separated sequence (or a dictionary) of property name strings, each immediately followed by its new value.
+- *pairsOfPropertiesAndValues* are the specified properties and new values, given as a comma-separated sequence (or a dictionary) of property name strings, each immediately followed by its new value.
 
 
 
