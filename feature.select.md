@@ -1,4 +1,4 @@
-# ee.Feature *or* ee.Algorithms.Feature
+# feature.select    
 - creates a new feature by replicating a specified feature but only with a specified set of properties.
 
 ## Syntax
