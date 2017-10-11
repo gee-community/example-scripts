@@ -11,7 +11,12 @@ newImage = oldImage.clip( regionToBeKept )
 
 - *newImage* is the new image.
 - *oldImage* is the specified image.
-- *regionToBeKept* is the specified region, given as a geometry, feature, or feature collection.
+- *regionToBeKept* is the specified region, given as a Geometry or Feature. Use image.clipToCollection for clipping an image to a FeatureCollection.
+
+Argument names used in documentation:
+```
+newImage = oldImage.clip( geometry )
+```
 
 ## Example
 
