@@ -15,6 +15,11 @@ newImage = oldImage1.addBands( oldImage2, bandNames, overwrite? )
 - Optional: *overwrite?* is a Boolean set to True (only) if second image’s bands are to overwrite first image’s bands of the same name.  Otherwise, any such band will be renamed by adding the suffix '_1' 
 (or '_2', '_3', etc.) to its name.  Default: False 
 
+Argument names used in documentation:
+```
+newImage = oldImage1.addBands( srcImg, names, overwrite )  
+```
+
 ## Example
 
 #### Javascript
