@@ -4,7 +4,7 @@
 - The layout of the pages will be as follows:  
 
 # Name of Method
-- Description of what it does. Possibly more detailed than what you find in the official documentation.
+- Description of what it does. 
 
 ## Syntax
 
