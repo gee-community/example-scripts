@@ -12,7 +12,7 @@ newFeature = oldFeature.select (propertyList, propertyNameList, retainGeometry?)
 - *oldFeature* is the specified feature.
 - *propertyList* is the specified properties, given as a list of property names
 - *propertyNameList* are the new names for the selected properties, given as a list corresponding to propertyList
-- *retainGeometry?* is a Boolean set to rue (only) if the primary geometry key is be regarded as selected even when unselected.  Default: true
+- *retainGeometry?* is a Boolean set to true (only) if the primary geometry key is be regarded as selected even when unselected.  Default: true
 
 Arguments used in documentation:
 ```
