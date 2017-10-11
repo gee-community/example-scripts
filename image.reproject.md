@@ -10,9 +10,14 @@ newImage = oldImage.reproject ( coordinateSystem, placementCoefficients, pixelSi
 
 - *newImage* is the new image.
 - *oldImage* is the specified image.
-- Optional: *coordinateSystem* is the specified coordinate system, given as an [EPSG code](http://spatialreference.org/) or as a [WKT string](http://en.wikibooks.org/wiki/Geospatial_Data_in_SQL_Server/WKT).  Default: WGS84 
+- *coordinateSystem* is the specified coordinate system, given as an [EPSG code](http://spatialreference.org/) or as a [WKT string](http://en.wikibooks.org/wiki/Geospatial_Data_in_SQL_Server/WKT).  Default: WGS84 
 - Optional: *placementCoefficients* is a sequence of six numbers (of type Double) that indicate how the image is to be resized, reoriented, and repositioned with respect to the specified coordinate system.  If pixelSize is specified, this should not.
 - Optional: *pixelSize* is a number indicating the width of the new image’s pixels in meters.  If placementCoefficients is specified, this should not.
+
+Argument names used in documentation:
+```
+newImage = oldImage.reproject ( crs, crsTransform, scale )
+```
 
 ## Example
 
