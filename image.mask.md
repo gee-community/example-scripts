@@ -13,6 +13,11 @@ newImage = oldImage.mask( maskImage )
 - *oldImage* is the specified image.
 - *maskImage* is the specified mask.
 
+Argument names used in documentation
+```
+newImage = oldImage.mask( mask )
+```
+
 
 ## Example
 
