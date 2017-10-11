@@ -5,7 +5,7 @@
 
 #### Javascript
 ```
-newImage = ee.Image.pixelArea(  )
+newImage = ee.Image.pixelArea( )
 ```
 
 - *newImage* is the new image.
