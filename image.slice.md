@@ -13,7 +13,7 @@ newImage = oldImage.slice( startingPosition, stoppingPosition )
 - *startingPosition* is the specified starting position, given as an integer with negative integers counted backwards from the end.
 - Optional: *stoppingPosition* is the specified stopping position, given as an integer with negative integers counted backwards from the end.  Default: the final band.
 
-Official variable names:
+Official argument names:
 ```
 newImage = oldImage.slice( start, end )
 ```
