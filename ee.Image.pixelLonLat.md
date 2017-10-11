@@ -5,7 +5,7 @@
 
 #### Javascript
 ```
-newImage = ee.Image.pixelLonLat()
+newImage = ee.Image.pixelLonLat( )
 ```
 
 - *newImage* is the new image.
@@ -14,8 +14,8 @@ newImage = ee.Image.pixelLonLat()
 
 #### Javascript
 ```javascript
-var NewIMAGE = ee.Image.pixelLonLat();
-print( NewIMAGE.getInfo() );  
+var NewIMAGE = ee.Image.pixelLonLat( );
+print( NewIMAGE.getInfo( ) );  
 Map.addLayer( NewIMAGE, {bands:['longitude'],min:-180,max:180},'Longitude' );
 Map.addLayer( NewIMAGE, {bands:['latitude'], min:- 60,max: 60},'Latitude'  );
 Map.setCenter( 0, 0, 2 );
