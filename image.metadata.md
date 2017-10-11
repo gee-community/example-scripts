@@ -5,13 +5,13 @@
 
 #### Javascript
 ```
-newImage = oldImage.metadata( property, newBandName )
+newImage = oldImage.metadata( property, name )
 ```
 
 - *newImage* is the new image.
 - *oldImage1* is the first specified image.
 - *property* The specified numerical property, given as a string indicating to its name
-- Optional: *newBandName* A name for the output band, given as a string. Default: the name of the specified property
+- Optional: *name* A name for the output band, given as a string. Default: the name of the specified property
 
 
 ## Example
