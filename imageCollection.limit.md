@@ -11,8 +11,8 @@ newImageCollection = oldImageCollection.limit ( max, property, ascending )
 - *newImageCollection* is the new image collection.
 - *oldImageCollection* is the specified image collection.
 - *max* is the specified number of elements, given as an integer.
-- Optional: *property* is the specified property, given as a string.
-- Optional: *ascending* is the specified order, given as a Boolean set to True for ascending or False for descending.
+- Optional: *property* is the specified property to sort by, given as a string.
+- Optional: *ascending* is the specified order, given as a Boolean set to True for ascending or False for descending. The default is true (ascending).
 
 ## Example
 
