@@ -13,7 +13,7 @@ newImageCollection = oldImageCollection.limit ( howMany, sortProperty, ascending
 - Optional: *sortProperty* is the specified property to sort by, given as a string.
 - Optional: *ascendingOrder* is the specified order, given as a Boolean set to True for ascending or False for descending. Default: true (ascending).
 
-Argument names used in Docs:
+Argument names used in documentation:
 ```
 newImageCollection = oldImageCollection.limit ( max, property, ascending )
 ```
