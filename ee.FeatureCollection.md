@@ -12,12 +12,6 @@ newFeatureCollection = ee.FeatureCollection ( fusionTableID, geometryFieldName )
 - *fusionTableID* is the asset ID specified fusion table, given as a string beginning with "ft:". 
 - *geometryFieldName* is the name of a fusion table column to be used to define geometries. Default: 'geometry'. 
 
-Arguments used in documentation:
-```
-newFeature = ee.Algorithms.Feature ( geometry, metadata )
-newFeature = ee.Feature( geometry, properties )  
-```
-
 ## Example
 
 #### Javascript
