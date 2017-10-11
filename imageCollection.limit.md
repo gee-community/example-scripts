@@ -5,14 +5,14 @@
 
 #### Javascript
 ```
-newImageCollection = oldImageCollection.limit ( howMany, sortProperty, ascendingOrder? )
+newImageCollection = oldImageCollection.limit ( max, property, ascending )
 ```
 
 - *newImageCollection* is the new image collection.
 - *oldImageCollection* is the specified image collection.
-- *howMany* is the specified number of elements, given as an integer.
-- Optional: *sortProperty* is the specified property, given as a string.
-- Optional: *ascendingOrder?* is the specified order, given as a Boolean set to True for ascending or False for descending.
+- *max* is the specified number of elements, given as an integer.
+- Optional: *property* is the specified property, given as a string.
+- Optional: *ascending* is the specified order, given as a Boolean set to True for ascending or False for descending.
 
 ## Example
 
