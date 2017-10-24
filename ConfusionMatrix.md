@@ -1,5 +1,5 @@
 # ConfusionMatrix
-- creates a new confusion matrix from a specified two-dimensional array whose
+- Creates a new confusion matrix from a specified two-dimensional array whose
         - horizontal rows (axis 1) represent known classes
         - vertical columns (axis 0) represent predicted classes
         - values indicate the number cases in which a given known value was classfified as a given predicted value
