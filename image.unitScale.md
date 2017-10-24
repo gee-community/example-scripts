@@ -1,4 +1,4 @@
-# image.clamp
+# image.unitScale
 - Creates a new image of floating-point values on which 
   - each pixel at or below a specified minimum value is set to 0.0, 
   - each pixel at or above a specified maximum value is set to 1.0, 
