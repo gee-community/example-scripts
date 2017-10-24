@@ -18,10 +18,11 @@ newConfusionMatrix = ee.ConfusionMatrix(array,order)
 ## Example
 
 #### Javascript
-
+```javascript
 var TheARRAY           = ee.Array( [ [0,2,0,0],  
                                      [0,1,0,0],  
                                      [0,1,3,1], 
                                      [0,1,3,4]   ] ); 
 var TheCONFUSIONMATRIX = ee.ConfusionMatrix( TheARRAY ); 
 print( TheCONFUSIONMATRIX ); 
+```
