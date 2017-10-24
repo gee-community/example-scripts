@@ -1,8 +1,8 @@
 # ConfusionMatrix
 - creates a new confusion matrix from a specified two-dimensional array whose
-        a) horizontal rows (axis 1) represent known classes
-        b) vertical columns (axis 0) represent predicted classes
-        c) values indicate the number cases in which a given known value was classfified as a given predicted value
+        - horizontal rows (axis 1) represent known classes
+        - vertical columns (axis 0) represent predicted classes
+        - values indicate the number cases in which a given known value was classfified as a given predicted value
         
 ## Syntax
 
