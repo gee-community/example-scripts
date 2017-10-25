@@ -8,8 +8,8 @@
 newObject = ee.data.getMapId ( settings )
 ```
 
-Input: Instructions identifying data and data-display options in the same manner as Map.addlayer settings but with an additional setting given as 'id':  followed by the asset ID for a feature, feature collection, image, or image collection
-Output: A dictionary of strings associated with two keys: “mapid” and “token” 
+- *newObject* is a dictionary of strings associated with two keys: “mapid” and “token” 
+- *settings* is instructions identifying data and data-display options in the same manner as Map.addlayer settings but with an additional setting given as 'id':  followed by the asset ID for a feature, feature collection, image, or image collection
 
 ## Examples
 
