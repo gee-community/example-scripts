@@ -7,7 +7,7 @@
 ```
 newNumber = Map.getScale ( )
 ```
-Output: The approximate number of meters represented by the horizontal or vertical width of each pixel in meters
+- *newNumber*: The approximate number of meters represented by the horizontal or vertical width of each pixel in meters
 
 ## Examples
 
