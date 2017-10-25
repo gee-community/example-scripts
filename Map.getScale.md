@@ -13,5 +13,6 @@ Output: The approximate number of meters represented by the horizontal or vertic
 
 #### Javascript
 ```javascript
-var example = some('Javascript')
+var HowWIDE = Map.getScale( );
+print( HowWIDE );
 ```
