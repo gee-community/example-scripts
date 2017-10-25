@@ -19,4 +19,4 @@ Description of syntax and arguments.
 ```javascript
 var TheCOORDINATES = Map.getBounds( );
 print( TheCOORDINATES );
-``'
+```
