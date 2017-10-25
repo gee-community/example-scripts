@@ -5,7 +5,7 @@
 
 #### Javascript
 ```
-newImage = ee.Algorithms.Fmask.matchClouds ( oldImage, cloudImage, shadowImage, brightnessImage, howDark, howBright, tilePadding )
+newImage = ee.Algorithms.FMask.matchClouds ( oldImage, cloudImage, shadowImage, brightnessImage, howDark, howBright, tilePadding )
 ```
 
 - *newImage* is the new image.
