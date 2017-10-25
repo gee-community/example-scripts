@@ -8,10 +8,7 @@
 bounds = Map.getBounds( )
 ```
 
-A list ( or GeoJSON object )  of four numbers respectively indicating the map’s current westerly, southerly, easterly, and northerly coordinates in decimal degrees
-
-
-Description of syntax and arguments.
+- *bounds* is a list ( or GeoJSON object )  of four numbers respectively indicating the map’s current westerly, southerly, easterly, and northerly coordinates in decimal degrees
 
 ## Examples
 
