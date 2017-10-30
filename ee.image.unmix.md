@@ -10,7 +10,7 @@ newImage = oldImage.unmix( arrayOfEndmembers )
 ```
 
 - *newImage* is the new image.
-- *oldImage* is the specified image.
+- *oldImage.unmix* is the specified image.
 - *Endmembers* are the specified endmembers, given as array doubles.
 
 Argument names used in documentation:
