@@ -1,4 +1,4 @@
-# ConfusionMatrix.producersAccuracy
+# confusionMatrix.producersAccuracy
 - creates a new array indicating the consumer's accuracy(reliability) of a specified confusion matrix.
 - computed as the number of correct classifications divided by the the total number of classifications for each column.
        
