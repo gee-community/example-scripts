@@ -1,6 +1,6 @@
-# ConfusionMatrix.accuracy
-- creates a new floating-point number indicating the accuracy of a specified confusion matrix.
-- computed as the number of correct classifications divided by the total number of classifications.
+# confusionMatrix.accuracy
+- Creates a new floating-point number indicating the accuracy of a specified confusion matrix.
+- Computed as the number of correct classifications divided by the total number of classifications.
        
 ## Syntax
 
