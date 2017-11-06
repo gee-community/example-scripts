@@ -1,6 +1,6 @@
-# ConfusionMatrix.consumersAccuracy
-- creates a new array indicating the consumer's accuracy(reliability) of a specified confusion matrix.
-- computed as the number of correct classifications divided by the the total number of classifications for each row.
+# confusionMatrix.consumersAccuracy
+- Creates a new array indicating the consumer's accuracy(reliability) of a specified confusion matrix.
+- Computed as the number of correct classifications divided by the the total number of classifications for each row.
        
 ## Syntax
 
