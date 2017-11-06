@@ -1,5 +1,5 @@
-# ConfusionMatrix.getInfo
-- creates a JSON-compatible text object representing a specified confusion matrix.
+# confusionMatrix.getInfo
+- Creates a JSON-compatible text object representing a specified confusion matrix.
        
 ## Syntax
 
