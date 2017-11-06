@@ -17,7 +17,7 @@ A confusion matrix is an Earth Engine variable object that represents what is so
 
 #### Documenting Confusion Matrices
 - [confusionMatrix.getInfo](confusionMatrix.getInfo.md)
-- [confusionMatrix.toString](confusionMatrix.toString.md)  
+- [confusionMatrix.toString](confusionMatrix.toString.md)  <--- Incomplete from here onward.
 - [ee.Algorithms.Describe(confusionMatrix)](ee.Algorithms.Describe(confusionMatrix).md)
 - [confusionMatrix.serialize](confusionMatrix.serialize.md)
 
