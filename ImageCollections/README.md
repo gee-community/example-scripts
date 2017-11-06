@@ -14,10 +14,10 @@ ImageCollections can be processed by using operations of the types listed below,
 - By *limiting* images:
   - [imageCollection.limit](imageCollection.limit.md) 
 - By *filtering* images: 
-  - [imageCollection.filterMetadata](imageCollection.filterMetadata.md) 
+  - [imageCollection.filterMetadata](imageCollection.filterMetadata.md)  <-- Incomplete
   - [imageCollection.filterBounds](imageCollection.filterBounds.md) 
   - [imageCollection.filterDate](imageCollection.filterDate.md) 
-  - [imageCollection.filter](imageCollection.filter.md) 
+  - [imageCollection.filter](imageCollection.filter.md)  <-- Incomplete from here onwards
 - By *selecting* bands: 
   - [imageCollection.select](imageCollection.select.md),  
   - [imageCollection.distinct](imageCollection.distinct.md) 
