@@ -1,4 +1,4 @@
-# ConfusionMatrix
+# ee.ConfusionMatrix
 Creates a new confusion matrix from a specified two-dimensional array whose
 - horizontal rows (axis 1) represent known classes
 - vertical columns (axis 0) represent predicted classes
