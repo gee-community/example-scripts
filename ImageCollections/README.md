@@ -55,30 +55,61 @@ ImageCollections can be processed by using operations of the types listed below,
   - [imageCollection.set](imageCollection.set.md)
   - [imageCollection.setMulti](imageCollection.setMulti.md)
 
-#### Transforming Images
+#### Transforming ImageCollections
 - By *mosaicking*:
   - [imageCollection.mosaic](imageCollection.mosaic.md)
-- with logical operations
-  - [image.and](image.and_image.or_BooleanForNon-zeroImageValues.md)  
-  - [image.or](image.and_image.or_BooleanForNon-zeroImageValues.md)  
-<!--- 
-- With mathematical operations <--- stopped here 
-  - [image.Uint8](ConvertingImagePixelType.md)
-  - [image.Uint16](ConvertingImagePixelType.md)
-  - [image.Uint32](ConvertingImagePixelType.md)
-  - [image.toInt8](ConvertingImagePixelType.md)  
-  - [image.toInt16](ConvertingImagePixelType.md)
-  - [image.toInt32](ConvertingImagePixelType.md)  
-  - [image.toInt64](ConvertingImagePixelType.md)  
-  - [image.toFloat](ConvertingImagePixelType.md)  
-  - [image.toDouble](ConvertingImagePixelType.md)
-  - [image.byte](ConvertingImagePixelType.md)
-  - [image.short](ConvertingImagePixelType.md)
-  - [image.int](ConvertingImagePixelType.md)
-  - [image.toLong](ConvertingImagePixelType.md)   
-  - [image.toByte](ConvertingImagePixelType.md)
-  - [image.toShort](ConvertingImagePixelType.md)
-  - [image.toInt](ConvertingImagePixelType.md)
-  - [image.toLong](ConvertingImagePixelType.md) 
-  - [image.cast](image.cast.md) 
----!>
+- with *logical* operations
+  - [imageCollection.and](image.and_image.or_BooleanForNon-zeroImageValues.md)  
+  - [imageCollection.or](image.and_image.or_BooleanForNon-zeroImageValues.md)  
+- With *mathematical* operations:
+  - [imageCollection.sum](imageCollection.sum.md)   
+  - [imageCollection.product](imageCollection.product.md)
+  - [imageCollection.max](imageCollection.max.md) 
+  - [imageCollection.min](imageCollection.min.md) 
+  - [imageCollection.mean](imageCollection.mean.md)
+  - [imageCollection.mode](imageCollection.mode.md) 
+  - [imageCollection.median](imageCollection.median.md)
+  - [imageCollection.count](imageCollection.count.md) 
+  - [imageCollection.formaTrend](imageCollection.formaTrend.md)
+- With *reducers*:
+  - [imageCollection.reduce](imageCollection.reduce.md)
+  
+#### Reproducing ImageCollections
+- As lists of *pixel data*:
+  - [imageCollection.getRegion](imageCollection.getRegion.md)
+- As lists of *images*:
+  - [imageCollection.first](imageCollection.first.md)  
+  - [imageCollection.toList](imageCollection.toList.md)  
+- As GoogleMap *overlays*:
+  - [imageCollection.getMap](imageCollection.getMap.md)
+- As images of *arrays*:
+  - [imageCollection.toArray](imageCollection.toArray.md)   
+  - [imageCollection.toArrayPerBand](imageCollection.toArrayPerBand.md) 
+  
+#### Comparing ImageCollections
+- [ee.Algorithms.IsEqual(imageCollection)](ee.Algorithms.IsEqual(imageCollection).md)
+
+#### Parallel Processing ImageCollections
+- [imageCollection.Map](imageCollection.Map.md)
+
+#### Documenting ImageCollections
+- [imageCollection.getInfo](imageCollection.getInfo.md)
+- [ee.Algorithms.Describe(imageCollection)](ee.Algorithms.Describe(imageCollection).md)
+- [imageCollection.toString](imageCollection.toString.md)
+- [imageCollection.serialize](imageCollection.serialize.md)
+- [ee.data.getList](ee.data.getList.md)
+
+#### Presenting ImageCollections
+- In print:
+  - [print(imageCollection)](print(imageCollection).md)
+  - [alert(imageCollection)](alert(imageCollection).md)
+  - [console.log(imageCollection)](console.log(imageCollection).md)
+  - [confirm(imageCollection)](confirm(imageCollection).md)
+- In maps:
+  - [Map.addLayer(imageCollection)](Map.addLayer(imageCollection).md)
+- In charts:
+  - [Chart.image.series](Chart.image.series.md)
+  - [Chart.image.seriesByRegion](Chart.image.seriesByRegion.md)
+  - [Chart.image.doySeries](Chart.image.doySeries.md)
+  - [Chart.image.doySeriesByRegion](Chart.image.doySeriesByRegion.md)
+  - [Chart.image.doySeriesByYear](Chart.image.doySeriesByYear.md)
