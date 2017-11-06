@@ -1,6 +1,6 @@
-# ConfusionMatrix.kappa
-- creates a new floating-point number indicating the Kappa statistic for a specified confusion matrix.
-- this measures the agreement between two datasets on a scale that genereally ranges from 0 to 1.
+# confusionMatrix.kappa
+- Creates a new floating-point number indicating the Kappa statistic for a specified confusion matrix.
+- This measures the agreement between two datasets on a scale that genereally ranges from 0 to 1.
        
 ## Syntax
 
