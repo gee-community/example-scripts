@@ -30,7 +30,7 @@ An image is an EE variable object that represents a cartographic depiction of ge
 - By recoding colors:
   - [image.rgbtohsv](image.rgbtohsv.md)
   - [image.hsvtorgb](image.hsvtorgb.md)
- - By recasting data types:
+- By recasting data types:
   - [image.uint8](ConvertingImagePixelType.md)
   - [image.uint16](ConvertingImagePixelType.md)
   - [image.uint32](ConvertingImagePixelType.md)
@@ -57,9 +57,47 @@ An image is an EE variable object that represents a cartographic depiction of ge
   - [image.toShort](ConvertingImagePixelType.md)
   - [image.toInt](ConvertingImagePixelType.md)
   - [image.toLong](ConvertingImagePixelType.md) 
+  - [image.cast](image.cast.md) 
+- By resetting values:
+  - [image.set](image.set.md)
+  - [image.setMulti](image.setMulti.md)
+  - [image.remap](image.remap.md)
+  - [image.where](image.where.md)
+  - [image.metadata](image.metadata.md)
+  - [image.clamp](image.clamp.md)
+  - [image.unitScale](image.unitScale.md)
+  - [image.interpolate](image.interpolate.md)
 
+#### Transforming Images
+- with logical operations
+  - [image.eq](RelationshipsBetweenValuesOfTwoImages.md)
+  - [image.gt](RelationshipsBetweenValuesOfTwoImages.md)
+  - [image.lt](RelationshipsBetweenValuesOfTwoImages.md)
+  - [image.and](image.and_image.or_BooleanForNon-zeroImageValues.md)  
+  - [image.neq](RelationshipsBetweenValuesOfTwoImages.md)
+  - [image.gte](RelationshipsBetweenValuesOfTwoImages.md)  
+  - [image.lte](RelationshipsBetweenValuesOfTwoImages.md)  
+  - [image.or](image.and_image.or_BooleanForNon-zeroImageValues.md)  
+  - [image.not](image.not.md) 
 
-- [ee.Image](ee.Image.md)
-- [ee.Image.load](ee.Image.constant.md) 
-- [ee.Image](ee.Image.md)
-- [ee.Image.load](ee.Image.constant.md) 
+<!--- 
+- With mathematical operations <--- stopped here 
+  - [image.Uint8](ConvertingImagePixelType.md)
+  - [image.Uint16](ConvertingImagePixelType.md)
+  - [image.Uint32](ConvertingImagePixelType.md)
+  - [image.toInt8](ConvertingImagePixelType.md)  
+  - [image.toInt16](ConvertingImagePixelType.md)
+  - [image.toInt32](ConvertingImagePixelType.md)  
+  - [image.toInt64](ConvertingImagePixelType.md)  
+  - [image.toFloat](ConvertingImagePixelType.md)  
+  - [image.toDouble](ConvertingImagePixelType.md)
+  - [image.byte](ConvertingImagePixelType.md)
+  - [image.short](ConvertingImagePixelType.md)
+  - [image.int](ConvertingImagePixelType.md)
+  - [image.toLong](ConvertingImagePixelType.md)   
+  - [image.toByte](ConvertingImagePixelType.md)
+  - [image.toShort](ConvertingImagePixelType.md)
+  - [image.toInt](ConvertingImagePixelType.md)
+  - [image.toLong](ConvertingImagePixelType.md) 
+  - [image.cast](image.cast.md) 
+---!>
