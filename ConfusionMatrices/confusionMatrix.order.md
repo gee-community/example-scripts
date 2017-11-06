@@ -1,5 +1,5 @@
-# ConfusionMatrix.order
-- creates a new list indicating the name and order of the rows and columns of a specified confusion matrix.
+# confusionMatrix.order
+- Creates a new list indicating the name and order of the rows and columns of a specified confusion matrix.
        
 ## Syntax
 
