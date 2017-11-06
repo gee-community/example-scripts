@@ -1,5 +1,5 @@
-# ConfusionMatrix.array
-- creates a creates a new two-dimensional array from a specified confusion matrix.
+# confusionMatrix.array
+- Creates a creates a new two-dimensional array from a specified confusion matrix.
        
 ## Syntax
 
