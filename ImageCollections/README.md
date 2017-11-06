@@ -6,6 +6,9 @@ An ImageCollection is is an EE variable object that represents a set of images t
   - for different places at different times.
 ImageCollections can be processed by using operations of the types listed below, which vary according to the nature of that processing.  Each operation name is linked to a separate page describing that operation.
 
+#### Creating ImageCollections
+- [ee.ImageCollection.fromImages](ee.ImageCollection.fromImages.md) <-- Incomplete
+
 #### Accessing ImageCollections
 - [ee.ImageCollection](ee.ImageCollection.md)
 - [ee.ImageCollection.load](ee.ImageCollection.load.md)
