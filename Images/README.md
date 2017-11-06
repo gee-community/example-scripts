@@ -16,21 +16,21 @@ An image is an EE variable object that represents a cartographic depiction of ge
 - [ee.Image.pixelArea](ee.Image.pixelArea.md)
 
 #### Editing Images
-- By masking regions: 
+- By *masking* regions: 
   - [image.mask](image.mask.md) 
-- By clipping regions: 
+- By *clipping* regions: 
   - [image.clip](image.clip.md) 
-- By selecting bands: 
+- By *selecting* bands: 
   - [image.select](image.select.md),  
   - [image.slice](image.slice.md) 
-- By combining bands: 
+- By *combining* bands: 
   - [image.addBands](image.addBands.md)
-- By reprojecting:
+- By *reprojecting*:
   - [image.reproject](image.reproject.md) 
-- By recoding colors:
+- By *recoding colors*:
   - [image.rgbtohsv](image.rgbtohsv.md)
   - [image.hsvtorgb](image.hsvtorgb.md)
-- By recasting data types:
+- By *recasting* data types:
   - [image.uint8](ConvertingImagePixelType.md)
   - [image.uint16](ConvertingImagePixelType.md)
   - [image.uint32](ConvertingImagePixelType.md)
@@ -58,7 +58,7 @@ An image is an EE variable object that represents a cartographic depiction of ge
   - [image.toInt](ConvertingImagePixelType.md)
   - [image.toLong](ConvertingImagePixelType.md) 
   - [image.cast](image.cast.md) 
-- By resetting values:
+- By *resetting* values:
   - [image.set](image.set.md)
   - [image.setMulti](image.setMulti.md)
   - [image.remap](image.remap.md)
@@ -69,7 +69,7 @@ An image is an EE variable object that represents a cartographic depiction of ge
   - [image.interpolate](image.interpolate.md)
 
 #### Transforming Images
-- with logical operations
+- With *logical* operations
   - [image.eq](RelationshipsBetweenValuesOfTwoImages.md)
   - [image.gt](RelationshipsBetweenValuesOfTwoImages.md)
   - [image.lt](RelationshipsBetweenValuesOfTwoImages.md)
@@ -79,25 +79,24 @@ An image is an EE variable object that represents a cartographic depiction of ge
   - [image.lte](RelationshipsBetweenValuesOfTwoImages.md)  
   - [image.or](image.and_image.or_BooleanForNon-zeroImageValues.md)  
   - [image.not](image.not.md) 
+- With *mathematical* operations 
+  - [image.abs](TransformingImagesWithMathematicalOperations1.md)
+  - [image.ceil](TransformingImagesWithMathematicalOperations1.md)
+  - [image.log](TransformingImagesWithMathematicalOperations1.md)
+  - [image.floor](TransformingImagesWithMathematicalOperations1.md)  
+  - [image.round](TransformingImagesWithMathematicalOperations1.md)
+  - [image.exp](TransformingImagesWithMathematicalOperations1.md)  
+  - [image.sqrt](TransformingImagesWithMathematicalOperations1.md)  
+  - [image.log10](TransformingImagesWithMathematicalOperations1.md)  
+  - [image.add](TransformingImagesWithMathematicalOperation2s.md)
+  - [image.subtract](TransformingImagesWithMathematicalOperations2.md)
+  - [image.multiply](TransformingImagesWithMathematicalOperations2.md)
+  - [image.divide](TransformingImagesWithMathematicalOperations2.md)
+  - [image.max](TransformingImagesWithMathematicalOperations2.md)   
+  - [image.min](TransformingImagesWithMathematicalOperations2.md)
+  - [image.mod](TransformingImagesWithMathematicalOperations2.md)
+  - [image.pow](TransformingImagesWithMathematicalOperations2.md)
+  - [image.hypot](TransformingImagesWithMathematicalOperations2.md) 
+  - [image.first](TransformingImagesWithMathematicalOperations2.md) 
+  - [image.first_nonzero](TransformingImagesWithMathematicalOperations2.md) 
 
-<!--- 
-- With mathematical operations <--- stopped here 
-  - [image.Uint8](ConvertingImagePixelType.md)
-  - [image.Uint16](ConvertingImagePixelType.md)
-  - [image.Uint32](ConvertingImagePixelType.md)
-  - [image.toInt8](ConvertingImagePixelType.md)  
-  - [image.toInt16](ConvertingImagePixelType.md)
-  - [image.toInt32](ConvertingImagePixelType.md)  
-  - [image.toInt64](ConvertingImagePixelType.md)  
-  - [image.toFloat](ConvertingImagePixelType.md)  
-  - [image.toDouble](ConvertingImagePixelType.md)
-  - [image.byte](ConvertingImagePixelType.md)
-  - [image.short](ConvertingImagePixelType.md)
-  - [image.int](ConvertingImagePixelType.md)
-  - [image.toLong](ConvertingImagePixelType.md)   
-  - [image.toByte](ConvertingImagePixelType.md)
-  - [image.toShort](ConvertingImagePixelType.md)
-  - [image.toInt](ConvertingImagePixelType.md)
-  - [image.toLong](ConvertingImagePixelType.md) 
-  - [image.cast](image.cast.md) 
----!>
