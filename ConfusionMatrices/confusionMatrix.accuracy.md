@@ -4,7 +4,7 @@
        
 ## Syntax
 
-#### Javascript
+#### JavaScript
 
 ```
 newNumber = oldConfusionMatrix.accuracy()
@@ -14,7 +14,7 @@ newNumber = oldConfusionMatrix.accuracy()
 
 ## Example
 
-#### Javascript
+#### JavaScript
 ```javascript
 var TheARRAY           =  ee.Array( [ [0,2,0,0],  
                                      [0,1,0,0],  
