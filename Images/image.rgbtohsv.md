@@ -16,8 +16,8 @@ newImage = oldImage.rgbtohsv( )
 #### Javascript
 ```javascript
 var OldIMAGE = ee.Image( 'LC8_L1T/LC80150332014322LGN00' ).select([3,2,1]).unitScale(0,32767);
-var NewIMAGE = OldIMAGE.rgbtohsv( );
-print( OldIMAGE.getInfo() , NewIMAGE.getInfo() );
+var NewIMAGE = OldIMAGE.rgbToHsv( );
+print( OldIMAGE , NewIMAGE );
 Map.setCenter( -75.8369, 39.4526, 12 );
 Map.addLayer( OldIMAGE, { bands:'B4,B3,B2', min:0, max:0.5}, 'Original'  );
 Map.addLayer( OldIMAGE.select(0), {min:0.1, max:0.8, palette:'ffffff,990000'},  'Redness'   );
