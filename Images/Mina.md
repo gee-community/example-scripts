@@ -7,7 +7,6 @@
 ```
 newImage = oldImage.clamp( minimumValue, maximumValue )
 ```
-
 - *newImage*
 - *The specified image*
 - *The specified minimum value* 
