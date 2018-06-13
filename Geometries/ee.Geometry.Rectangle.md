@@ -8,7 +8,7 @@
 newGeometry = ee.Geometry.Rectangle ( minimumLon, minimumLat, maximumLon, maximumLat )
 ```
 - *newGeometry* is the new rectangle geometry.
-- *minimumLon, minimumLat, maximumLon,  maximumLat * is the specified set of westerly, southerly, easterly, and northerly coordinates, each given as a number
+- *minimumLon, minimumLat, maximumLon,  maximumLat * is the specified set of westerly, southerly, easterly, and northerly coordinates, each given as a number.
 
 ## Example
 
