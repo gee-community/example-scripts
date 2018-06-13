@@ -80,7 +80,7 @@ An image is an EE variable object that represents a cartographic depiction of ge
   - [image.or](image.and_image.or_BooleanForNon-zeroImageValues.md)  
   - [image.not](image.not.md) 
 - With *mathematical* operations:
-  - [image.abs](TransformingImagesWithMathematicalOperations1.md)  <-- Incomplete from here onwards
+  - [image.abs](TransformingImagesWithMathematicalOperations1.md)  <-- Example doesn't use any of the funtions
   - [image.ceil](TransformingImagesWithMathematicalOperations1.md)
   - [image.log](TransformingImagesWithMathematicalOperations1.md)
   - [image.floor](TransformingImagesWithMathematicalOperations1.md)  
@@ -88,7 +88,7 @@ An image is an EE variable object that represents a cartographic depiction of ge
   - [image.exp](TransformingImagesWithMathematicalOperations1.md)  
   - [image.sqrt](TransformingImagesWithMathematicalOperations1.md)  
   - [image.log10](TransformingImagesWithMathematicalOperations1.md)  
-  - [image.add](TransformingImagesWithMathematicalOperation2s.md)
+  - [image.add](TransformingImagesWithMathematicalOperation2.md)
   - [image.subtract](TransformingImagesWithMathematicalOperations2.md)
   - [image.multiply](TransformingImagesWithMathematicalOperations2.md)
   - [image.divide](TransformingImagesWithMathematicalOperations2.md)
@@ -100,7 +100,7 @@ An image is an EE variable object that represents a cartographic depiction of ge
   - [image.first](TransformingImagesWithMathematicalOperations2.md) 
   - [image.first_nonzero](TransformingImagesWithMathematicalOperations2.md) 
 - With *trigonometric* operations:
-  - [image.sin](TransformingImagesWithTrigonometricOperations.md)
+  - [image.sin](TransformingImagesWithTrigonometricOperations.md)  <-- Incomplete from here onwards
   - [image.cos](TransformingImagesWithTrigonometricOperations.md)
   - [image.tan](TransformingImagesWithTrigonometricOperations.md)
   - [image.sinh](TransformingImagesWithTrigonometricOperations.md)
