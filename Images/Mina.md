@@ -1,6 +1,5 @@
 # image.clamp
 - Creates a new image on which each pixel is set t each value on a specified image unless that value is greater than a specified maximum or lower than a specified minimum, in which case the pixel is set to the closest of those specified maximum and minimum values.
-- Masked pixels will appear as transparent in subsequent displays and eliminated from subsequent processing.
 
 ## Syntax
 
@@ -9,9 +8,10 @@
 newImage = oldImage.clamp( minimumValue, maximumValue )
 ```
 
-- *newImage* is the new image.
-- *oldImage* is the specified image.
-- *regionToBeKept* is the specified region, given as a Geometry or Feature. Use image.clipToCollection for clipping an image to a FeatureCollection.
+- *newImage*
+- *The specified image*
+- *The specified minimum value* 
+- *The specified maximum value* 
 
 Argument names used in documentation:
 ```
