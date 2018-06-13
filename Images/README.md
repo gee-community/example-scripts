@@ -7,10 +7,10 @@ An image is an EE variable object that represents a cartographic depiction of ge
 
 #### Accessing Images
 - [ee.Image](ee.Image.md)
-- [ee.Image.load](ee.Image.constant.md)
+- [ee.Image.load](ee.Image.constant.md)   <-- wrong link?
 
 #### Creating Images
-- [ee.Image(value)](ee.Image(value).md)
+- [ee.Image(value)](ee.Image(value).md)   <-- link not working
 - [ee.Image.constant](ee.Image.constant.md)
 - [ee.Image.pixelLonLat](ee.Image.pixelLonLat.md)
 - [ee.Image.pixelArea](ee.Image.pixelArea.md)
@@ -80,7 +80,7 @@ An image is an EE variable object that represents a cartographic depiction of ge
   - [image.or](image.and_image.or_BooleanForNon-zeroImageValues.md)  
   - [image.not](image.not.md) 
 - With *mathematical* operations:
-  - [image.abs](TransformingImagesWithMathematicalOperations1.md)  <-- Example doesn't use any of the funtions
+  - [image.abs](TransformingImagesWithMathematicalOperations1.md)  <-- Incomplete from here onwards
   - [image.ceil](TransformingImagesWithMathematicalOperations1.md)
   - [image.log](TransformingImagesWithMathematicalOperations1.md)
   - [image.floor](TransformingImagesWithMathematicalOperations1.md)  
@@ -88,19 +88,19 @@ An image is an EE variable object that represents a cartographic depiction of ge
   - [image.exp](TransformingImagesWithMathematicalOperations1.md)  
   - [image.sqrt](TransformingImagesWithMathematicalOperations1.md)  
   - [image.log10](TransformingImagesWithMathematicalOperations1.md)  
-  - [image.add](TransformingImagesWithMathematicalOperation2.md)
-  - [image.subtract](TransformingImagesWithMathematicalOperation2.md)
-  - [image.multiply](TransformingImagesWithMathematicalOperation2.md)
-  - [image.divide](TransformingImagesWithMathematicalOperation2.md)
-  - [image.max](TransformingImagesWithMathematicalOperation2.md)   
-  - [image.min](TransformingImagesWithMathematicalOperation2.md)
-  - [image.mod](TransformingImagesWithMathematicalOperation2.md)
-  - [image.pow](TransformingImagesWithMathematicalOperation2.md)
-  - [image.hypot](TransformingImagesWithMathematicalOperation2.md) 
-  - [image.first](TransformingImagesWithMathematicalOperation2.md) 
-  - [image.first_nonzero](TransformingImagesWithMathematicalOperation2.md) 
+  - [image.add](TransformingImagesWithMathematicalOperation2s.md)
+  - [image.subtract](TransformingImagesWithMathematicalOperations2.md)
+  - [image.multiply](TransformingImagesWithMathematicalOperations2.md)
+  - [image.divide](TransformingImagesWithMathematicalOperations2.md)
+  - [image.max](TransformingImagesWithMathematicalOperations2.md)   
+  - [image.min](TransformingImagesWithMathematicalOperations2.md)
+  - [image.mod](TransformingImagesWithMathematicalOperations2.md)
+  - [image.pow](TransformingImagesWithMathematicalOperations2.md)
+  - [image.hypot](TransformingImagesWithMathematicalOperations2.md) 
+  - [image.first](TransformingImagesWithMathematicalOperations2.md) 
+  - [image.first_nonzero](TransformingImagesWithMathematicalOperations2.md) 
 - With *trigonometric* operations:
-  - [image.sin](TransformingImagesWithTrigonometricOperations.md)  <-- Incomplete from here onwards
+  - [image.sin](TransformingImagesWithTrigonometricOperations.md)
   - [image.cos](TransformingImagesWithTrigonometricOperations.md)
   - [image.tan](TransformingImagesWithTrigonometricOperations.md)
   - [image.sinh](TransformingImagesWithTrigonometricOperations.md)
