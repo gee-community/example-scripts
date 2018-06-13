@@ -15,7 +15,8 @@ A geometry is is an EE variable object that represents a set of points, lines, o
 - [ee.Geometry](ee.Geometry.md)
 
 #### Editing Geometries
-- By *reprojecting*: [geometry.transform](geometry.transform.md)
+- By *reprojecting*: 
+  - [geometry.transform](geometry.transform.md)
 
 #### Transforming Geometries
 - [geometry.centroid](geometry.centroid.md)
@@ -29,7 +30,14 @@ A geometry is is an EE variable object that represents a set of points, lines, o
 - [geometry.symmetricDifference](geometry.symmetricDifference.md)
 
 #### Reproducing Geometries
-
+- As *lists*: 
+  - [geometry.geometries](geometry.geometries.md)
+  - [geometry.coordinates](geometry.coordinates.md)
+- As *features*: 
+  - [ee.Algorithms.Feature](geometry.transform.md) <-- fix me
+- As *feature collections*: 
+  - [geometry.transform](geometry.transform.md)
+  
 #### Querying Geometries
 
 #### Comparing Geometries
