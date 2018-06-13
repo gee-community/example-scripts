@@ -27,7 +27,9 @@ newImage = oldImage1.addBands( srcImg, names, overwrite )
 var ElevationIMAGE = ee.Image( 'CGIAR/SRTM90_V4' );	
 var LandCoverIMAGE = ee.Image( 'MCD12Q1/MCD12Q1_005_2001_01_01' ).select(['Land_Cover_Type_1']).multiply(100) ;
 var TwoBandIMAGE = ElevationIMAGE.addBands( LandCoverIMAGE );
-print( ElevationIMAGE.getInfo() );  print( LandCoverIMAGE.getInfo() ); print( TwoBandIMAGE.getInfo() );   
+print( ElevationIMAGE );
+print( LandCoverIMAGE );
+print( TwoBandIMAGE );   
 Map.setCenter( -97.12, 39.23, 3 );
 Map.addLayer( ElevationIMAGE, {min:0, max:1234, opacity:0.5 , gamma:1}, 'Elevation' );
 Map.addLayer( LandCoverIMAGE, {min:0, max:1500,   opacity:0.3},           'LandCover' );
