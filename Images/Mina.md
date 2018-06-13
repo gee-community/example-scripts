@@ -11,10 +11,6 @@ newImage = oldImage.clamp( minimumValue, maximumValue )
 - *The specified image* is the old image.
 - *The specified minimum value* is the specified minimum value.
 - *The specified maximum value* is the specified maximum value.
-
-Argument names used in documentation:
-```
-newImage = oldImage.clip( geometry )
 ```
 
 ## Example
