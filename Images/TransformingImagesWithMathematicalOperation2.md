@@ -25,7 +25,7 @@ newImage = 1stImage.first_nonzero(2ndImage)
 - *newImage* is the new image, whose pixel type is defined by the union of the pixel types of the two specified images.
 - *1stImage* is the specified first image.
 - *2ndImage* is the specified second image.
-- *.add .subtract .multiply .divide .max .min .mod .pow hypot first first_nonzero* are the specified mathematical function .
+- *.add .subtract .multiply .divide .max .min .mod .pow .hypot .first .first_nonzero* are the specified mathematical function .
 
 
 ## Example
