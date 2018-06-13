@@ -21,11 +21,13 @@ A dateRange is an Earth Engine parameter object that represents the span of time
 - [dateRange.isUnbounded](dateRange.isUnbounded.md)
 
 #### Documenting DateRanges
-- [dateRange.getInfo](dateRange.union.md)
-- [dateRange.toString](dateRange.intersection.md)
-- [dateRange.toString](dateRange.intersection.md)
-- [dateRange.serialize](dateRange.intersection.md)
+- [dateRange.getInfo](dateRange.getInfo.md)
+- [ee.Algorithms.Describe(dateRange)](ee.Algorithms.Describe.md) 
+- [dateRange.toString](dateRange.toString.md)
+- [dateRange.serialize](dateRange.serialize.md)
 
 #### Presenting DateRanges
-- [dateRange.union](dateRange.union.md)
-- [dateRange.intersection](dateRange.intersection.md)
+- [print(dateRange)](print.dateRange.md)
+- [console.log(dateRange)](console.log.dateRange.md)
+- [alert(dateRange)](alert.dateRange.md)
+- [confirm(dateRange)](confirm.dateRange.md)
