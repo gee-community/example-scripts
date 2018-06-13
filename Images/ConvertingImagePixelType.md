@@ -29,5 +29,7 @@ newImage = oldImage.uint8() etc.
 
 #### Javascript
 ```javascript
-Example needed.
+var oldImage = ee.Image(1);
+var newImage = oldImage.uint8();
+print(oldImage, newImage);
 ```
