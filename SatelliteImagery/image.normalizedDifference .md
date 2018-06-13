@@ -1,4 +1,4 @@
-# normalizedDifference.md
+# image.normalizedDifference.md
 - creates a new image in which each pixel’s value is set to the difference between its values on two specified bands of a specified image divided by the sum of those two values. 
 
 ## Syntax
