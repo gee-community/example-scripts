@@ -6,12 +6,12 @@
 #### Javascript
 ```
 newImage = oldImage.clamp( minimumValue, maximumValue ) 
+
 ```
 - *newImage* is the new image.
 - *oldImage* is the specified image.
 - *minimumValue* is the specified minimum value.
 - *maximumValue* is the specified maximum value.
-```
 
 ## Example
 
