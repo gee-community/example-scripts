@@ -7,10 +7,10 @@
 ```
 newImage = oldImage.clamp( minimumValue, maximumValue )
 ```
-- *newImage*
-- *The specified image* is the new image.
-- *The specified minimum value* is the specified image.
-- *The specified maximum value* is the specified region, given as a Geometry or Feature. Use image.clipToCollection for clipping an image to a FeatureCollection.
+- *newImage* is the new image.
+- *The specified image* is the old image.
+- *The specified minimum value* is the specified minimum value.
+- *The specified maximum value* is the specified maximum value.
 
 Argument names used in documentation:
 ```
