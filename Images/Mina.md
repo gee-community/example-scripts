@@ -1,12 +1,12 @@
-# image.clip
-- Creates a new image by masking those portions of a specified image lie outside of a region.
+# image.clamp
+- Creates a new image on which each pixel is set t each value on a specified image unless that value is greater than a specified maximum or lower than a specified minimum, in which case the pixel is set to the closest of those specified maximum and minimum values.
 - Masked pixels will appear as transparent in subsequent displays and eliminated from subsequent processing.
 
 ## Syntax
 
 #### Javascript
 ```
-newImage = oldImage.clip( regionToBeKept )
+newImage = oldImage.clamp( minimumValue, maximumValue )
 ```
 
 - *newImage* is the new image.
