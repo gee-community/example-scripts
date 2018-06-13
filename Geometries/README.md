@@ -34,11 +34,14 @@ A geometry is is an EE variable object that represents a set of points, lines, o
   - [geometry.geometries](geometry.geometries.md)
   - [geometry.coordinates](geometry.coordinates.md)
 - As *features*: 
-  - [ee.Algorithms.Feature](geometry.transform.md) <-- fix me
+  - [ee.Algorithms.Feature](ee.Algorithms.Feature.md)
+  - [ee.Feature(geometry)](ee.Feature.geometry.md)
 - As *feature collections*: 
-  - [geometry.transform](geometry.transform.md)
+  - [ee.FeatureCollection(geometry)](ee.FeatureCollection.geometry.md)
   
 #### Querying Geometries
+- For *projections*: 
+  - [geometry.projection](geometry.projection.md)
 
 #### Comparing Geometries
 
