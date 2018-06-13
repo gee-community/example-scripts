@@ -23,5 +23,5 @@ newImage = oldImage.setMulti( dictionary )
 ```javascript
 var OldIMAGE = ee.Image( 0 );
 var NewIMAGE = OldIMAGE.setMulti( {'author':'Me', 'label':'My Image Collection'} );             
-print( OldIMAGE.getInfo( ), NewIMAGE.getInfo( ) );
+print( OldIMAGE, NewIMAGE );
 ```
