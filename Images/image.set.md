@@ -19,5 +19,5 @@ newImage = oldImage.set ( pairsOfPropertiesAndValues )
 ```javascript
 var OldIMAGE = ee.Image( 0 );
 var NewIMAGE = OldIMAGE.set( 'author','Me','label','My Image Collection' );             
-print( OldIMAGE.getInfo( ), NewIMAGE.getInfo( ) );
+print( OldIMAGE, NewIMAGE );
 ```
