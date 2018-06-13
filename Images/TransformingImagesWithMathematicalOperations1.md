@@ -1,4 +1,4 @@
-# image.abs,  image.round ,  image.floor ,  image.ceil ,  image.sqrt ,  image.exp ,  image.log,  *and*  image.log10
+# image.abs,  image.round,  image.floor,  image.ceil,  image.sqrt,  image.exp,  image.log,  *and*  image.log10
 - Create a new image by applying a specified mathematical function to the value of each pixel on each band of a specified image.
 
 ## Syntax
