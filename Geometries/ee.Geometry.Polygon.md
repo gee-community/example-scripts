@@ -1,5 +1,5 @@
 # ee.Geometry.Polygon
-- creates a new polygon geometry from a specified sequence of longitude-latitude pairs of coordinates. Though coordinates may be specified in either clockwise or counterclockwise order, the latter is usually preferable for reasons described [here] (geometry.area.md)
+- creates a new polygon geometry from a specified sequence of longitude-latitude pairs of coordinates. Though coordinates may be specified in either clockwise or counterclockwise order, the latter is usually preferable for reasons described [here](geometry.area.md)
 
 ## Syntax
 
