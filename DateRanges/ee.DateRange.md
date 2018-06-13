@@ -1,5 +1,5 @@
 # ee.DateRange
-- creates a DateRange object extending from a specified starting date to a specified stopping date and including both of those dates.
+- Creates a DateRange object extending from a specified starting date to a specified stopping date and including both of those dates.
 
 ## Syntax
 
