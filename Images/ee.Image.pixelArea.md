@@ -15,6 +15,12 @@ newImage = ee.Image.pixelArea( )
 #### Javascript
 ```javascript
 var NewIMAGE = ee.Image.pixelArea( );
-print( NewIMAGE.getInfo( ) );   
+print( NewIMAGE );   
 Map.addLayer( NewIMAGE, {min: 2e8, max: 4e8, opacity: 0.85});
+```
+
+#### Python
+```python
+NewIMAGE = ee.Image.pixelArea( )
+print(NewIMAGE)
 ```
