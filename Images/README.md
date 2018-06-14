@@ -113,14 +113,14 @@ An image is an EE variable object that represents a cartographic depiction of ge
 - With *bitwise* operations: 
   - [image.bitwiseAnd](TransformingImagesWithBitwiseOperations.md)
   - [image.bitwiseOr](TransformingImagesWithBitwiseOperations.md)
-  - [image.bitwise_xor](TransformingImagesWithBitwiseOperations.md)
+  - [image.bitwiseXor](TransformingImagesWithBitwiseOperations.md)
   - [image.bitwiseNot](TransformingImagesWithBitwiseOperations.md)
   - [image.bitwise_and](TransformingImagesWithBitwiseOperations.md)
   - [image.bitwise_or](TransformingImagesWithBitwiseOperations.md)
-  - [image.bitwise_Xor](TransformingImagesWithBitwiseOperations.md)
+  - [image.bitwise_xor](TransformingImagesWithBitwiseOperations.md)
   - [image.bitwise_not](TransformingImagesWithBitwiseOperations.md)  
 - With pixel *reducers*:
-  - [image.reduce](TransformingImagesWithMathematicalOperations1.md)
+  - [image.reduce](ImageReduce.md)
 - With *array* operations:
   - [image.arrayAccum](TransformingImagesWithArrayOperations.md)  <-- Incomplete from here onwards
   - [image.arrayFlatten](TransformingImagesWithArrayOperations.md)
