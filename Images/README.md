@@ -111,7 +111,7 @@ An image is an EE variable object that represents a cartographic depiction of ge
   - [image.atan](TransformingImagesWithTrigonometricOperations.md)
   - [image.atan2](TransformingImagesWithTrigonometricOperations2.md)
 - With *bitwise* operations: 
-  - [image.bitwiseAnd](TransformingImagesWithArrayOperations.md)  <-- Incomplete from here onwards
+  - [image.bitwiseAnd](TransformingImagesWithBitwiseOperations.md)
   - [image.bitwiseOr](TransformingImagesWithBitwiseOperations.md)
   - [image.bitwise_xor](TransformingImagesWithBitwiseOperations.md)
   - [image.bitwiseNot](TransformingImagesWithBitwiseOperations.md)
@@ -122,7 +122,7 @@ An image is an EE variable object that represents a cartographic depiction of ge
 - With pixel *reducers*:
   - [image.reduce](TransformingImagesWithMathematicalOperations1.md)
 - With *array* operations:
-  - [image.arrayAccum](TransformingImagesWithArrayOperations.md)
+  - [image.arrayAccum](TransformingImagesWithArrayOperations.md)  <-- Incomplete from here onwards
   - [image.arrayFlatten](TransformingImagesWithArrayOperations.md)
   - [image.arrayGet](TransformingImagesWithArrayOperations.md)
   - [image.arrayLengths](TransformingImagesWithArrayOperations.md)
