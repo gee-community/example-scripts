@@ -15,7 +15,7 @@ newImage = oldImage.classify( classifier, newClassificationBandName )
 
 Argument names used in documentation:
 ```
-newImage = oldImage.classify( classifier, outputName )
+https://developers.google.com/earth-engine/api_docs#eeimageclassify
 ```
 
 ## Example
