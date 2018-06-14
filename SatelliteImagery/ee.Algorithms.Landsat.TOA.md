@@ -12,7 +12,8 @@ newImage = ee.Algorithms.Landsat.TOA( oldImage )
 
 Argument names used in documentation:
 ```
-https://developers.google.com/earth-engine/landsat#at-sensor-radiance-and-toa-reflectance
+https://developers.google.com/earth-engine/api_docs#eealgorithmslandsattoa
+
 ```
 
 ## Example
