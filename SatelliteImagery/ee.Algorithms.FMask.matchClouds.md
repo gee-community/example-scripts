@@ -19,7 +19,7 @@ newImage = ee.Algorithms.FMask.matchClouds ( oldImage, cloudImage, shadowImage, 
 
 Argument names used in documentation:
 ```
-newImage = ee.Algorithms.FMask.matchClouds(input, cloud, shadow, btemp, sceneLow, sceneHigh, neighborhood)
+https://developers.google.com/earth-engine/api_docs#eealgorithmsfmaskmatchclouds
 ```
 
 ## Example
