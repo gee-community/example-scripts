@@ -8,7 +8,7 @@
 newBoolean = oldDateRange.isUnbounded( )
 ```
 
-- *newBoolean* is The new Boolean.
+- *newBoolean* is the new Boolean.
 - *oldDateRange.isUnbounded( )* is the specified dateRange.
 
 ## Example
