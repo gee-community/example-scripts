@@ -15,8 +15,14 @@ newImage = ee.Image.pixelLonLat( )
 #### Javascript
 ```javascript
 var NewIMAGE = ee.Image.pixelLonLat( );
-print( NewIMAGE.getInfo( ) );  
+print( NewIMAGE );  
 Map.addLayer( NewIMAGE, {bands:['longitude'],min:-180,max:180},'Longitude' );
 Map.addLayer( NewIMAGE, {bands:['latitude'], min:- 60,max: 60},'Latitude'  );
 Map.setCenter( 0, 0, 2 );
+```
+
+#### Python
+```python
+NewIMAGE = ee.Image.pixelLonLat()
+print(NewIMAGE)
 ```
