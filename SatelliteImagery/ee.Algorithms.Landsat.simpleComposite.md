@@ -18,7 +18,7 @@ newImage = ee.Algorithms.Landsat.simpleComposite ( oldImageCollection, percentil
 
 Argument names used in documentation:
 ```
-
+https://developers.google.com/earth-engine/api_docs#eealgorithmslandsatsimplecomposite
 ```
 
 ## Example
