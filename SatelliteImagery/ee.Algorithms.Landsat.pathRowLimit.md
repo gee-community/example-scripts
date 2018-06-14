@@ -16,7 +16,8 @@ newImageCollection = ee.Algorithms.Landsat.pathRowLimit( oldImageCollection, pat
  
 Argument names used in documentation:
 ```
-newImage = oldImage.classify( classifier, outputName )
+https://developers.google.com/earth-engine/api_docs#eealgorithmslandsatpathrowlimit
+
 ```
 
 ## Example
