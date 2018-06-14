@@ -24,7 +24,7 @@ newImage = oldImage.mask( mask )
 #### Javascript
 ```javascript
 var OldIMAGE  = ee.Image( 'CGIAR/SRTM90_V4' );
-var MaskIMAGE = ee.Image( 'MCD12Q1/MCD12Q1_005_2001_01_01').select(['Land_Cover_Type_1']).neq(9);
+var MaskIMAGE = ee.Image( 'MCD12Q1/MCD12Q1_005_2001_01_01').select('Land_Cover_Type_1').neq(9);
 var MaskedIMAGE  = OldIMAGE.mask( MaskIMAGE );
 print( 'Original Image', OldIMAGE    );  
 print( 'Mask Image',     MaskIMAGE   );  
