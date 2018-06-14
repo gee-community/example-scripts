@@ -5,7 +5,7 @@
 
 #### Javascript
 ```
-newGeometry = ee.Geometry.LineString ( coordinatePairs )
+newGeometry = ee.Geometry.MultiLineString ( coordinatePairs )
 ```
 
 - *newGeometry* is the new MultiLineString geometry.
