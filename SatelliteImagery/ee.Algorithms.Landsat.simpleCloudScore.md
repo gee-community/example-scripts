@@ -14,7 +14,7 @@ newImage = ee.Algorithms.Landsat.simpleCloudScore( oldImage )
 
 Argument names used in documentation:
 ```
-
+https://developers.google.com/earth-engine/api_docs#eealgorithmslandsatsimplecloudscore
 ```
 
 ## Example
