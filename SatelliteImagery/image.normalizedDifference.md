@@ -14,7 +14,7 @@ newImage = oldImage.normalizedDifference( bandNameArray )
 
 Argument names used in documentation:
 ```
-
+https://developers.google.com/earth-engine/api_docs#eeimagenormalizeddifference
 ```
 
 ## Example
