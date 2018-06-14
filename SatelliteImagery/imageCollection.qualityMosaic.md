@@ -12,6 +12,12 @@ newImage = oldImageCollection.qualityMosaic( qualityBand )
 - *oldImageCollection* is the specified image collection.
 - *qualityBand* is the specified quality band, given by its name. 
 
+Argument names used in documentation:
+
+```
+https://developers.google.com/earth-engine/api_docs#eeimagecollectionqualitymosaic
+```
+
 ## Example
 
 #### Javascript
