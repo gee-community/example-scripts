@@ -19,12 +19,12 @@ newImage = ee.Image.constant(value)
 ```javascript
 var FirstIMAGE  = ee.Image( 1 );   
 var SecondIMAGE = ee.Image.constant( 2 );
-print( FirstIMAGE.getInfo( ), SecondIMAGE.getInfo( ) );
+print( FirstIMAGE, SecondIMAGE );
 ```
 
 #### Python
 ```python
 FirstIMAGE  = ee.Image(1)   
 SecondIMAGE = ee.Image.constant(2)
-print(FirstIMAGE.getInfo(), SecondIMAGE.getInfo())
+print(FirstIMAGE, SecondIMAGE)
 ```
