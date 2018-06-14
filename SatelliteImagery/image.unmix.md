@@ -15,7 +15,7 @@ newImage = oldImage.unmix( arrayOfEndmembers )
 
 Argument names used in documentation:
 ```
-newImage = oldImage.unmix(endmembers, sumToOne, nonNegative)
+https://developers.google.com/earth-engine/api_docs#eeimageunmix
 ```
 - *sumToOne* constrains the outputs to sum to one.
 - *nonNegative* constrains the outputs to be non-negative. 
