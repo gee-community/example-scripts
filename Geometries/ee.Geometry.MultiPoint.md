@@ -5,7 +5,7 @@
 
 #### Javascript
 ```
-newGeometry = ee.Geometry.Point ( coordinatePairs )
+newGeometry = ee.Geometry.MultiPoint ( coordinatePairs )
 ```
 - *newGeometry* is the new multiPoint geometry.
 - *coordinatePairs* is the specified set of coordinate pairs, given as a list of [lon,lat] lists or as a comma-separated sequence of (lon,lat,lon,lat…) numbers.
