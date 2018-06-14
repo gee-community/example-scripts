@@ -32,4 +32,5 @@ Map.addLayer( NewIMAGE, {min:0, max: 2500} );
 #### python
 ````python
 NewIMAGE = ee.Image( 'CGIAR/SRTM90_V4' )
+print(NewIMAGE.getThumbUrl({'min':0, 'max':2500}))
 ````
