@@ -1,5 +1,5 @@
 # ee.Geometry
-- creates a new geometry from a specified GeoJSON object as described (here)[http://en.wikipedia.org/wiki/GeoJSON].
+- creates a new geometry from a specified GeoJSON object as described [here](http://en.wikipedia.org/wiki/GeoJSON).
 
 ## Syntax
 
