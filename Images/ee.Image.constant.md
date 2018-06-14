@@ -21,3 +21,10 @@ var FirstIMAGE  = ee.Image( 1 );
 var SecondIMAGE = ee.Image.constant( 2 );
 print( FirstIMAGE.getInfo( ), SecondIMAGE.getInfo( ) );
 ```
+
+#### Python
+```python
+FirstIMAGE  = ee.Image(1)   
+SecondIMAGE = ee.Image.constant(2)
+print(FirstIMAGE.getInfo(), SecondIMAGE.getInfo())
+```
